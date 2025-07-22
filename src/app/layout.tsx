@@ -91,12 +91,31 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-DD9KW17MV8"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-DD9KW17MV8');
+            `,
+          }}
+        />
+
+        {/* Plausible Analytics */}
+        <script defer data-domain="font-generator.pro" src="https://plausible.io/js/script.js"></script>
+
+        {/* Favicon and Icons */}
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="icon" href="/favicon.png" type="image/png" sizes="16x16" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="icon" href="/favicon-16.svg" type="image/svg+xml" sizes="16x16" />
         <link rel="icon" href="/favicon-32.svg" type="image/svg+xml" sizes="32x32" />
         <link rel="apple-touch-icon" href="/favicon-32.svg" />
+
+        {/* Structured Data */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
