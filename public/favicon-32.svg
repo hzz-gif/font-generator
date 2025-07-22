@@ -1,0 +1,19 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 32x32 version with more details -->
+  <rect width="32" height="32" rx="6" fill="#8B5CF6"/>
+  
+  <!-- Decorative dots -->
+  <circle cx="6" cy="6" r="1" fill="#FFFFFF" opacity="0.4"/>
+  <circle cx="26" cy="26" r="1" fill="#FFFFFF" opacity="0.4"/>
+  
+  <!-- Main "A" letter -->
+  <path d="M16 6L22 24H19.5L18.2 20H13.8L12.5 24H10L16 6Z" fill="#FFFFFF"/>
+  <path d="M14.5 17H17.5L16 13L14.5 17Z" fill="#FFFFFF"/>
+  
+  <!-- Accent line -->
+  <rect x="8" y="26" width="16" height="2" rx="1" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- Small decorative elements -->
+  <circle cx="10" cy="8" r="0.5" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="22" cy="8" r="0.5" fill="#FFFFFF" opacity="0.6"/>
+</svg>

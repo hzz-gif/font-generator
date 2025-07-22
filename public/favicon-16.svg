@@ -1,0 +1,11 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Simple design optimized for 16x16 -->
+  <rect width="16" height="16" rx="3" fill="#8B5CF6"/>
+  
+  <!-- Simple "A" letter -->
+  <path d="M8 3L11 13H9.5L9 11H7L6.5 13H5L8 3Z" fill="#FFFFFF"/>
+  <path d="M7.3 9.5H8.7L8 7.5L7.3 9.5Z" fill="#FFFFFF"/>
+  
+  <!-- Simple accent -->
+  <rect x="4" y="13" width="8" height="1" rx="0.5" fill="#FFFFFF" opacity="0.8"/>
+</svg>
