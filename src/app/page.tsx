@@ -426,6 +426,9 @@ export default function Home() {
                   <a href="/terms" className="text-gray-300 hover:text-white transition-colors">Terms</a>
                   <a href="/privacy" className="text-gray-300 hover:text-white transition-colors">Privacy</a>
                   <a href="/contact" className="text-gray-300 hover:text-white transition-colors">Contact</a>
+                  <a href="https://kontext-ai.com/" className="text-gray-300 hover:text-white transition-colors">Kontext AI</a>
+                  <a href="https://aistage.net" title="AIStage" className="text-gray-300 hover:text-white transition-colors">AIStage</a>
+                  <a href="https://game-sprunki.com/" title="Game Sprunki" className="text-gray-300 hover:text-white transition-colors">Game Sprunki</a>
                 </div>
               </div>
             </div>
